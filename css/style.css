@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
 }
 :root {
   --cor-0: #ffffff;
@@ -26,6 +26,7 @@
 img {
   max-width: 100%;
   display: block;
+  border-radius: 5px;
 }
 ul,
 a {
@@ -51,6 +52,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+  font-family: "Poppins";
+  font-weight: 400;
 }
 
 .header-menu a {
@@ -104,15 +107,14 @@ a {
 
 /* main */
 
-.introducao-bg{
-    background: var(--cor-12);
+.introducao-bg {
+  background: var(--cor-12);
 }
 
-.introducao img{
-    margin-bottom: -120px;
-    /* height: 100%; */
-    object-fit: cover;
-
+.introducao img {
+  margin-bottom: -120px;
+  /* height: 100%; */
+  object-fit: cover;
 }
 .introducao {
   display: grid;
@@ -130,6 +132,8 @@ a {
 .introducao-descricao h1 {
   font-size: 4rem;
   line-height: 1.12;
+  font-family: "Poppins";
+  font-weight: 600;
 }
 .introducao-descricao h1 span {
   color: var(--cor-p1);
@@ -139,6 +143,8 @@ a {
   font-size: 1.5rem;
   line-height: 1.5;
   color: var(--cor-4);
+  font-family: "Roboto";
+  font-weight: 400;
 }
 
 .btn {
@@ -147,28 +153,46 @@ a {
   border-radius: 5px;
   font-size: 0.975rem;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
+  font-family: "Poppins";
   color: var(--cor-p5);
-  box-shadow: 0 1 2px rgba(0, 0, 0, .2);
+  box-shadow: 0 1 2px rgba(0, 0, 0, 0.2);
 }
 
 .btn:hover {
   background: var(--cor-p2);
 }
 
-@media(max-width:1100px){
-    .introducao-descricao h1{
-        font-size: 3rem;
-    }
-    .introducao-descricao p{
-        font-size: 1.1rem;
-    }
+@media (max-width: 1100px) {
+  .introducao-descricao h1 {
+    font-size: 3rem;
+  }
+  .introducao-descricao p {
+    font-size: 1.1rem;
+  }
 }
 
-@media(max-width:800px){
-    .introducao{
-        grid-template-columns: 1fr;
+@media (max-width: 800px) {
+  .introducao {
+    grid-template-columns: 1fr;
+  }
+  .introducao-descricao p {
+    font-size: 1rem;
+  }
+  .introducao-descricao h1 {
+    font-size: 2rem;
+  }
+  .introducao img {
+    height: 300px;
+    width: 100%;
+  }
 
-    }
+  .introducao img {
+    margin-bottom: -80px;
+  }
 
+  .btn {
+    padding: 15px 25px;
+    font-size: 0.875rem;
+  }
 }
