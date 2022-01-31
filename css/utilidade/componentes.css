@@ -1,0 +1,22 @@
+.btn {
+  background: var(--cor-p1);
+  padding: 20px 32px;
+  border-radius: 5px;
+  font-size: 0.975rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Poppins";
+  color: var(--cor-p5);
+  box-shadow: 0 1 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background: var(--cor-p2);
+}
+
+@media (max-width: 800px) {
+  .btn {
+    padding: 15px 25px;
+    font-size: 0.875rem;
+  }
+}
