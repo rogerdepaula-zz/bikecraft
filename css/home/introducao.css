@@ -17,12 +17,10 @@
   max-width: 72rem;
   margin: 0 auto;
   position: relative;
-  color: var(--cor-0);
 }
 
 .introducao-descricao p {
   margin: 50px 0;
-  color: var(--cor-4);
 }
 
 @media (max-width: 800px) {
