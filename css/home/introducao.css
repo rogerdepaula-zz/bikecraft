@@ -11,11 +11,6 @@
   display: grid;
   gap: 40px;
   grid-template-columns: 1fr 1fr;
-  padding: 2rem 1rem;
-  align-items: center;
-  font-size: 1.1rem;
-  max-width: 72rem;
-  margin: 0 auto;
   position: relative;
 }
 

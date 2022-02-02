@@ -6,10 +6,7 @@
   flex-wrap: wrap;
   gap: 40px;
   justify-content: space-between;
-  padding: 1.2rem 1rem;
   align-items: center;
-  max-width: 72rem;
-  margin: 0 auto;
 }
 .header-menu {
   display: flex;
