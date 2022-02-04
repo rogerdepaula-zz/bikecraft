@@ -1,4 +1,4 @@
-.container{
+.container {
   box-sizing: border-box;
   max-width: 1200px;
   padding: 20px;
@@ -21,11 +21,11 @@
   background: var(--cor-p2);
 }
 
-.btn.secundario{
+.btn.secundario {
   background: var(--cor-10);
   color: var(--cor-2);
 }
-.btn.secundario:hover{
+.btn.secundario:hover {
   background: var(--cor-9);
 }
 

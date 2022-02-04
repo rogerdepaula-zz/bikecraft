@@ -47,15 +47,15 @@
 .seguros-item a {
   grid-column: 1/-1;
 }
-@media (max-width: 1200px){
-    .seguros {
-        margin: 0 40px;
-    }
+@media (max-width: 1200px) {
+  .seguros {
+    margin: 0 40px;
+  }
 }
 
-@media (max-width: 800px){
-    .seguros {
-        grid-template-columns: 1fr;
-        margin: 0 40px;
-    }
+@media (max-width: 800px) {
+  .seguros {
+    grid-template-columns: 1fr;
+    margin: 0 40px;
+  }
 }
