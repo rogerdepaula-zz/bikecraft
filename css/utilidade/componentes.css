@@ -15,10 +15,13 @@
   color: var(--cor-p5);
   box-shadow: 0 1 2px rgba(0, 0, 0, 0.2);
   max-width: max-content;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .btn:hover {
   background: var(--cor-p2);
+  
 }
 
 .btn.secundario {
@@ -27,6 +30,16 @@
 }
 .btn.secundario:hover {
   background: var(--cor-9);
+  transition: 1s;
+}
+.btn.seta:hover::after{
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background-image: url(../../img/icones/seta.svg);
+ 
 }
 
 @media (max-width: 800px) {
