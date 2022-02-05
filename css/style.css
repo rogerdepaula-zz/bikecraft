@@ -9,14 +9,23 @@
 /* Home */
 @import url(home/introducao.css);
 
+/* bicicleta */
 @import url(bicicletas/bicicletas-lista.css);
 
+/* tecnologia */
 @import url(home/tecnologia.css);
 
+/* parceiro */
 @import url(home/parceiros.css);
 
+/* depoimento */
 @import url(home/depoimento.css);
 
+/* Seguros */
 @import url(seguros/seguros.css);
 
+/* Rodapé */
 @import url(global/footer.css);
+
+/* Pagina termos e condições */
+@import url(termos/termos.css);
