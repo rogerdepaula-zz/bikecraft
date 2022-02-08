@@ -25,7 +25,7 @@
 /* Seguros */
 @import url(seguros/seguros.css);
 @import url(seguros/perguntas.css);
-@import url(seguros/seguros.css);
+@import url(seguros/vantagens.css);
 
 /* Rodapé */
 @import url(global/footer.css);
