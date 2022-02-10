@@ -39,6 +39,9 @@
     transition: width .5s;
 }
 
+#bicicleta .bicicleta-lista ul{
+    padding: 0 0 20px 0px;
+}
 .bicicleta-items li span{
     padding-left: 20px;
 }

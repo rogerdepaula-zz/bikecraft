@@ -11,7 +11,7 @@
 
 /* bicicleta */
 @import url(bicicletas/bicicletas-lista.css);
-@import url(bicicletas/bicicletas.css);/* Pagina bicicletas */
+@import url(bicicletas/bicicletas.css); /* Pagina bicicletas */
 
 /* Pagina bicicleta */
 @import url(bicicleta/bicicleta.css);
@@ -29,6 +29,9 @@
 @import url(seguros/seguros.css);
 @import url(seguros/perguntas.css);
 @import url(seguros/vantagens.css);
+
+/* Seguros pagina bike*/
+@import url(bicicleta/segurobike.css);
 
 /* Rodapé */
 @import url(global/footer.css);
