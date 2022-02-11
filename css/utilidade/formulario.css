@@ -1,0 +1,23 @@
+.form{
+    margin-bottom: 10px;
+}
+.form label{
+    display: block;
+    font: 600 1rem/1.5 "Poppins", sans-serif;
+    margin-bottom: 4px;
+}
+
+div textarea {
+    display: grid;
+    display: block;
+
+}
+
+.form input{
+    padding: 12px;
+}
+
+.form input:focus{
+    outline: none;
+    border-color: var(--cor-p1) ;   
+}
