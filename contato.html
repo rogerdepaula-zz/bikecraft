@@ -28,6 +28,7 @@
             </nav>
         </div>
     </header>
+
     <main>
         <div class="titulo-bg">
             <div class="titulo container">
@@ -37,67 +38,58 @@
         </div>
 
         <div class="contato container">
-            <section aria-label="endereço" class="contato-dados">
+            <section class="contato-dados" aria-label="Endereço">
                 <h2 class="font-1-m cor-0">Loja Online</h2>
                 <div class="contato-endereco font-2-s cor-4">
-                    <p>Rua misteriosa, 13</p>
-                    <p>Belo Horizonte - MG</p>
+                    <p>Rua Ali Perto, 35</p>
+                    <p>Rio de Janeiro - RJ</p>
+                    <p>Brasil - Terra - Vita Láctea</p>
                 </div>
                 <address class="contato-meios font-2-s cor-4">
-                    <a href="mailto:rogerdepaularpps@gmail.com">rogerdepaularpps@gmail.com</a>
-                    <a href="mailto:lorem@ipsum.com">lorem@ipsum.com</a>
-                    <a href="tel:+5531994942582"> 31 99494 2582</a>
+                    <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
+                    <a href="mailto:assistencia@bikcraft.com">assistencia@bikcraft.com</a>
+                    <a href="tel:+552199999999">+55 21 9999-9999</a>
                 </address>
                 <div class="contato-redes">
-                    <a href="#">
-                        <img src="img/redes/instagram-p.svg" alt="instagram">
+                    <a href="./">
+                        <img src="./img/redes/instagram-p.svg" alt="Instagram">
                     </a>
-                    <a href="#">
-                        <img src="img/redes/facebook-p.svg" alt="Facebook">
+                    <a href="./">
+                        <img src="./img/redes/facebook-p.svg" alt="Facebook">
                     </a>
-                    <a href="#">
-                        <img src="img/redes/youtube-p.svg" alt="Youtube">
+                    <a href="./">
+                        <img src="./img/redes/youtube-p.svg" alt="Youtube">
                     </a>
                 </div>
-
-
             </section>
-            <section aria-label="Formulário" class="contato-formulario">
-                <div>
-                    <form action="../contato.html" class="form">
+            <section class="contato-formulario" aria-label="Formulário">
+                <form class="form" action="./contato.html">
+                    <div>
                         <label for="nome">Nome</label>
-                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
-                    </form>
-                </div>
-                <div>
-                    <form action="../contato.html" class="form">
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome">
+                    </div>
+                    <div>
                         <label for="telefone">Telefone</label>
-                        <input type="tel" id="telefone" name="telefone" placeholder="(31) 99999-9999" required>
-                    </form>
-                </div>
-                <div>
-                    <form action="../contato.html" class="form">
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" placeholder="Digite o seu e-mail" required >
-                    </form>
-                </div>
-                <div class="textarea">
-                    <label for="mensagem">Mensagem</label>
-                    <textarea rows="10"  id="mensagem" name="mensagem" placeholder="Digite aqui sua mensagem" required></textarea>
-                </div>       
-                <div>
-                    <input type="submit" value="Enviar Mensagem" class="btn">
-                </div>            
-
+                        <input type="text" id="telefone" name="telefone" placeholder="(21) 9999-9999">
+                    </div>
+                    <div class="col-2">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="contato@email.com">
+                    </div>
+                    <div class="col-2">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
+                    </div>
+                    <button class="btn col-2">Enviar Mensagem</button>
+                </form>
             </section>
         </div>
-
     </main>
 
     <article class="lojas container">
         <h2 class="font-1-xxl">lojas locais<span class="cor-p1">.</span></h2>
         <div class="lojas-item">
-            <img src="./img/lojas/rj.jpg "alt="mapa marcando o local da loja em RJ">
+            <img src="./img/lojas/rj.jpg " alt="mapa marcando o local da loja em RJ">
             <div class="lojas-conteudo">
                 <h3 class="font-1-xl">Rio de Janeiro</h3>
                 <div class="lojas-dados font-2-s cor-8">
@@ -111,7 +103,7 @@
                 <p class="lojas-tempo"><img src="img/icones/horario.svg" alt=""> 08-18h de seg a dom</p>
             </div>
         </div>
-       
+
         <div class="lojas-item">
             <img src="img/lojas/sp.jpg" alt="mapa marcando o local da loja em SP">
             <div class="lojas-conteudo">
