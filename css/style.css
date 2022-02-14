@@ -34,5 +34,7 @@
 @import url(contato/contato.css);
 @import url(contato/loja.css);
 
+@import url(orcamento/orcamento.css);
+
 /* Pagina termos e condições */
 @import url(termos/termos.css);
