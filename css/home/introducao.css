@@ -18,17 +18,21 @@
   margin: 50px 0;
 }
 
+@media (min-width: 1200px) {
+  .depoimento img {
+    max-height: 520px;
+  }
+}
 @media (max-width: 1000px) {
   .introducao img {
     margin-bottom: -50px;
   }
-
-} 
+}
 @media (max-width: 850px) {
   .introducao {
     grid-template-columns: 1fr;
   }
-   .introducao img {
+  .introducao img {
     height: 300px;
     width: 100%;
   }

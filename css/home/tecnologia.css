@@ -45,34 +45,34 @@
   display: flex;
   gap: 40px;
 }
-.tecnologia-informacoes h4{
-    margin-bottom: 8px;
-    width: max-content;
+.tecnologia-informacoes h4 {
+  margin-bottom: 8px;
+  width: max-content;
 }
 
-.tecnologia-informacoes img{
-    width: 24px;
+.tecnologia-informacoes img {
+  width: 24px;
 }
 
-@media(max-width:800px ){
-    .tecnologia-bg{
-        box-shadow: initial;
-    }
-    .tecnologia{
-        grid-template-columns: 1fr;
-    }
-    .tecnologia-items {
-        padding: 60px 0;
-    }
-    .tecnologia-img{
-        display: none;
-    }
-    .tecnologia-items a {
-        margin-bottom: 40px;
-    }
+@media (max-width: 800px) {
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-items {
+    padding: 60px 0;
+  }
+  .tecnologia-img {
+    display: none;
+  }
+  .tecnologia-items a {
+    margin-bottom: 40px;
+  }
 }
-@media(max-width:600px ){
-    .tecnologia-informacoes{
-        flex-direction: column;
-    }
+@media (max-width: 600px) {
+  .tecnologia-informacoes {
+    flex-direction: column;
+  }
 }

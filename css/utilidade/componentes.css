@@ -20,7 +20,6 @@
 
 .btn:hover {
   background: var(--cor-p2);
-  
 }
 
 .btn.secundario {
@@ -31,14 +30,13 @@
   background: var(--cor-9);
   transition: 1s;
 }
-.btn.seta:hover::after{
+.btn.seta:hover::after {
   content: "";
   display: inline-block;
   width: 18px;
   height: 10px;
   margin-left: 12px;
   background-image: url(../../img/icones/seta.svg);
- 
 }
 
 @media (max-width: 800px) {
@@ -48,19 +46,19 @@
   }
 }
 
-.titulo-bg{
+.titulo-bg {
   background: var(--cor-11);
   padding: 60px 0;
 }
-.titulo p{
+.titulo p {
   margin-bottom: 4px;
 }
 
-@media (max-width: 400px){
-  .titulo-bg{
+@media (max-width: 400px) {
+  .titulo-bg {
     padding: 40px 0;
   }
-  .titulo p{
+  .titulo p {
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 400;

@@ -1,57 +1,57 @@
-.depoimento{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background: var(--cor-p1);
-    overflow: hidden;
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--cor-p1);
+  overflow: hidden;
 }
 
-.depoimento img{
-    border-radius: none;
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+.depoimento img {
+  border-radius: none;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
-.depoimento-conteudo   {
-    padding: 40px 80px;
-    align-self: end;
+.depoimento-conteudo {
+  padding: 40px 80px;
+  align-self: end;
 }
-.depoimento-conteudo p{
-    max-width: 32ch;
-    font-family: "Merriweather", serif;
-    font-style: italic;
-    font-weight: 900;
-    margin-bottom: 32px;
-    position: relative;
+.depoimento-conteudo p {
+  max-width: 32ch;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 32px;
+  position: relative;
 }
-.depoimento p::before{
-    content: '“';
-    font-size: 4rem;
-    color: var(--cor-p2);
-    position: absolute;
-    left: -40px;
-    top: -15px;
+.depoimento p::before {
+  content: "“";
+  font-size: 4rem;
+  color: var(--cor-p2);
+  position: absolute;
+  left: -40px;
+  top: -15px;
 }
-.depoimento p::after{
-    content: '”';
-    font-size: 4rem;
-    color: var(--cor-p2);
-    position: absolute;
+.depoimento p::after {
+  content: "”";
+  font-size: 4rem;
+  color: var(--cor-p2);
+  position: absolute;
 }
-@media(max-width:800px) {
-    .depoimento{
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    .depoimento-conteudo{
-        padding: 40px 20px;
-        justify-self: center;
-    }
-    p{
-        font-size: 1.6rem;
-    }
+@media (max-width: 800px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .depoimento-conteudo {
+    padding: 40px 20px;
+    justify-self: center;
+  }
+  p {
+    font-size: 1.6rem;
+  }
 }
-@media(max-width:600px) {
-    p{
-        font-size: 1.25rem;
-    }
+@media (max-width: 600px) {
+  p {
+    font-size: 1.25rem;
+  }
 }
