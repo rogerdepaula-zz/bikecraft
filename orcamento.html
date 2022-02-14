@@ -36,33 +36,62 @@
             </div>
         </div>
 
-        <form class="orcamento container" action="./">
+        <form class="orcamento container" action="#">
             <div class="orcamento-produto">
                 <h2 class="font-1-xs cor-5">Bikcraft ou seguro?</h2>
 
-                <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
+                <input type="radio" name="tipo" value="bikcraft" id="bikcraft" required>
                 <label for="bikcraft">Bikcraft</label>
 
-                <input type="radio" name="tipo" value="seguro" id="seguro">
+                <input type="radio" name="tipo" value="seguro" id="seguro" required>
                 <label for="seguro">Seguro</label>
 
                 <div class="orcamento-conteudo" id="orcamento-bikcraft">
                     <h2 class="font-1-xs cor-5">Escolha a sua</h2>
 
-                    <input type="radio" name="produto" value="nimbus" id="nimbus">
+                    <input type="radio" name="produto" value="nimbus" id="nimbus" required>
                     <label for="nimbus">Nimbus Stark <span>R$3999,99</span></label>
+                    <div class="orcamento-detalhes">
+                        <ul class="font-1-xs cor-8">
+                            <li><img src="../img/icones/eletrica.svg" alt="">Motor elétrico</li>
+                            <li><img src="../img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+                            <li><img src="../img/icones/velocidade.svg" alt="">50km/h</li>
+                            <li><img src="../img/icones/rastreador.svg" alt="">Rastreador</li>
+                        </ul>
+                        <img src="./img/bicicletas/nimbus.jpg" alt="">
+                    </div>
 
                     <input type="radio" name="produto" value="magic" id="magic">
                     <label for="magic">Magic Might <span>R$1999,99</span></label>
+                    <div class="orcamento-detalhes">
+                        <ul class="font-1-xs cor-8">
+                            <li><img src="../img/icones/eletrica.svg" alt="">Motor elétrico</li>
+                            <li><img src="../img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+                            <li><img src="../img/icones/velocidade.svg" alt="">45km/h</li>
+                            <li><img src="../img/icones/rastreador.svg" alt="">Rastreador</li>
+                        </ul>
+                        <img src="./img/bicicletas/magic.jpg" alt="">
+                    </div>
+
 
                     <input type="radio" name="produto" value="nebula" id="nebula">
                     <label for="nebula">Nebula Cosmic <span>R$2999,99</span></label>
+                    <div class="orcamento-detalhes">
+                        <ul class="font-1-xs cor-8">
+                            <li><img src="../img/icones/eletrica.svg" alt="">Motor elétrico</li>
+                            <li><img src="../img/icones/carbono.svg" alt="">Fibra de Carbono</li>
+                            <li><img src="../img/icones/velocidade.svg" alt="">40km/h</li>
+                            <li><img src="../img/icones/rastreador.svg" alt="">Rastreador</li>
+                        </ul>
+                        <img src="./img/bicicletas/nebula.jpg" alt="">
+                    </div>
+
                 </div>
 
                 <div class="orcamento-conteudo" id="orcamento-seguro">
                     <h2 class="font-1-xs cor-5">Escolha o plano</h2>
 
-                    <input type="radio" name="produto" value="prata" id="prata">
+                    <input type="radio" name="produto" value="prata" id="prata" required>
                     <label for="prata">Prata <span>R$199</span></label>
 
                     <input type="radio" name="produto" value="ouro" id="ouro">
@@ -75,24 +104,24 @@
                 <h2 class="font-1-xs cor-9 col-2">dados pessoais</h2>
                 <div>
                     <label for="nome">Nome</label>
-                    <input type="text" id="nome" name="nome">
+                    <input type="text" id="nome" name="nome" required>
                 </div>
                 <div>
                     <label for="sobrenome">Sobrenome</label>
-                    <input type="text" id="sobrenome" name="sobrenome">
+                    <input type="text" id="sobrenome" name="sobrenome" required>
                 </div>
                 <div class="col-2">
                     <label for="cpf">CPF</label>
-                    <input type="text" id="cpf" name="cpf">
+                    <input type="text" id="cpf" name="cpf" required>
                 </div>
                 <div class="col-2">
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <h2 class="font-1-xs cor-9 col-2">Entrega</h2>
                 <div>
                     <label for="cep">CEP</label>
-                    <input type="text" id="cep" name="cep">
+                    <input type="text" id="cep" name="cep" required>
                 </div>
                 <div>
                     <label for="numero">Número</label>
@@ -100,19 +129,19 @@
                 </div>
                 <div>
                     <label for="lougradouro">Lougradouro</label>
-                    <input type="text" id="lougradouro" name="lougradouro">
+                    <input type="text" id="lougradouro" name="lougradouro" required>
                 </div>
                 <div>
                     <label for="bairro">Bairro</label>
-                    <input type="text" id="bairro" name="bairro">
+                    <input type="text" id="bairro" name="bairro" required>
                 </div>
                 <div>
                     <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade" name="cidade">
+                    <input type="text" id="cidade" name="cidade" required>
                 </div>
                 <div>
                     <label for="estado">Estado</label>
-                    <input type="text" id="estado" name="estado">
+                    <input type="text" id="estado" name="estado" required>
                 </div>
                 <button class="btn col-2">Solicitar Orçamento</button>
 
