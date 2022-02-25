@@ -30,8 +30,8 @@
   position: absolute;
 }
 .header-menu a:hover::after,
-.header-menu a.ativo::after{
-  width: 100%;
+.header-menu a.ativo::after {
+  width: 80%;
 }
 
 @media (max-width: 800px) {
@@ -54,6 +54,10 @@
     background: var(--cor-11);
     border-radius: 4px;
     padding: 10px 20px;
+  }
+  .header-menu a:hover,
+  .header-menu a.ativo {
+    background: var(--cor-10);
   }
 }
 
