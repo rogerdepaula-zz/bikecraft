@@ -14,6 +14,8 @@
 
 
     <title>Seguros- Bikecraft</title>
+
+     <script>document.documentElement.classList.add('js')</script>
 </head>
 
 <body id="seguros">
@@ -37,7 +39,7 @@
             </div>
         </div>
         <div class="seguros container">
-            <div class="seguros-item">
+            <div class="seguros-item fadeInDown" data-anime="1200">
                 <h3 class="font-1-xl cor-6">PRATA</h3>
                 <span class="font-1-xl cor-0">R$199 <span class="font-1-xs cor-6">mensal</span></span>
                 <ul class="font-2-m cor-0">
@@ -48,7 +50,7 @@
                 </ul>
                 <a href="./orcamento.html?tipo=seguro&produto=prata" class="btn secundario">inscreva-se</a>
             </div>
-            <div class="seguros-item">
+            <div class="seguros-item fadeInUp" data-anime="300">
                 <h3 class="font-1-xl cor-p1">OURO</h3>
                 <span class="font-1-xl cor-0">R$299 <span class="font-1-xs cor-6">mensal</span></span>
                 <ul class="font-2-m cor-0">
@@ -111,15 +113,15 @@
                 <dd id="pergunta1" class="font-1-s cor-9 ativa">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
             </div>
             <div>
-                <dt><button class="font-1-m-b" aria-controls="pergunta1" aria-expanded="false">Como posso entrar em contato?</button></dt>
-                <dd class="font-1-s cor-9">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+                <dt><button class="font-1-m-b" aria-controls="pergunta11" aria-expanded="false">Como posso entrar em contato?</button></dt>
+                <dd id="pergunta11" class="font-1-s cor-9">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
             </div>
             <div>
                 <dt><button class="font-1-m-b" aria-controls="pergunta2" aria-expanded="false">Vocês possuem algum desconto?</button></dt>
                 <dd id="pergunta2" class="font-1-s cor-9">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
             </div>
             <div>
-                <dt><button class="font-1-m-b" aria-controls="pergunta3" aria-expanded="false">QQual a garantia que possuo?</button></dt>
+                <dt><button class="font-1-m-b" aria-controls="pergunta3" aria-expanded="false">Qual a garantia que possuo?</button></dt>
                 <dd id="pergunta3" class="font-1-s cor-9">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
             </div>
             <div>
@@ -127,7 +129,7 @@
                 <dd id="pergunta4" class="font-1-s cor-9">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
             </div>
             <div>
-                <dt><button class="font-1-m-b" aria-controls="pergunta5" aria-expanded="false">QQuantas trocas posso fazer ao ano?</button></dt>
+                <dt><button class="font-1-m-b" aria-controls="pergunta5" aria-expanded="false">Quantas trocas posso fazer ao ano?</button></dt>
                 <dd id="pergunta5" class="font-1-s cor-9">Aceitamos pagamentos parcelados em todos os cartões de crédito. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
             </div>
         </dl>
@@ -142,8 +144,10 @@
                 <ul class="font-2-m cor-5">
                     <li><a href="tel:+5531994942582"> 31 99494 2582</a></li>
                     <li><a href="mailto:rogerdepaularpps@gmail.com">rogerdepaularpps@gmail.com</a></li>
-                    <li>Belo Horizonte</li>
-                    <li>Minas Gerais</li>
+                    <a href="https://goo.gl/maps/VpR84zgYww1eft6UA" target="_blank">
+                        <li>Belo Horizonte</li>
+                        <li>Minas Gerais</li>
+                    </a>
                 </ul>
                 <div class="footer-redes">
                     <a href="#">
@@ -171,6 +175,8 @@
             <p class="footer-copy font-2-m cor-6">Bikcraft© direitos reservados.</p>
         </div>
     </footer>
+
+    <script src="./script/plugins/simple-anime.js"></script>
     <script src="./script/script.js"></script>
 </body>
 
